@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ionic-website-one
+  host: ionic-website-one
+  disk_quota: 1024M
+  services:
+  - ionic-website-one-AdvancedMobileAccess
+  - ionic-website-one-imfpush
+  - ionic-website-one-cloudantNoSQLDB
